@@ -4,4 +4,8 @@ node default {
   content => 'hello world',
   owner   => 'root',
   }
+  service {'sshd':
+  ensure => running,
+  enable => true,
+  }
 }

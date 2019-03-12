@@ -5,3 +5,7 @@ mod 'puppetlabs-concat', '5.3.0'
 
 #Adding powershell and dependencies
 mod 'puppetlabs-powershell', '2.2.0'
+
+#Adding docker puppet training agent
+mod 'pltraining/dockeragent'
+mod 'garethr/docker'

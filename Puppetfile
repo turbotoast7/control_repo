@@ -8,4 +8,4 @@ mod 'puppetlabs-powershell', '2.2.0'
 
 #Adding docker puppet training agent
 mod 'pltraining-dockeragent'
-mod 'puppetlabs-docker'
+mod 'puppetlabs-docker', '3.4.0'

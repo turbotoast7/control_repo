@@ -1,12 +1,12 @@
 node default {
   file {'/root/README':
-  ensure  => file,
-  content => 'hello world',
-  owner   => 'root',
+    ensure  => file,
+    content => 'hello world',
+    owner   => 'root',
   }
   service {'sshd':
-  ensure => running,
-  enable => true,
+    ensure => running,
+    enable => true,
   }
 }
 node 'master.puppet.vm' {

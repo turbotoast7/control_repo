@@ -7,5 +7,5 @@ mod 'puppetlabs-concat', '5.3.0'
 mod 'puppetlabs-powershell', '2.2.0'
 
 #Adding docker puppet training agent
-mod 'pltraining/dockeragent'
-mod 'garethr/docker'
+mod 'pltraining-dockeragent'
+mod 'puppetlabs-docker'
